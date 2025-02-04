@@ -1,4 +1,4 @@
-<h1 align="center">Ledgerly: Expense Tracking Platform</h1>
+<h1 align="center">Expensa: Expense Tracking Platform</h1>
 
 <p align="center">
   A self-hosted, open-source platform for tracking and managing expenses.  
