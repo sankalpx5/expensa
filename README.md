@@ -41,6 +41,11 @@
 ## Overview
 ![image](https://github.com/user-attachments/assets/6121d6e1-a9cf-4db6-8ceb-e309c16c323f)
 
-- The **backend** consists of 3 main services being the **Python based REST API** developed using **FastAPI** for serving requests, performing CRUD operations, a **RDS Postgres** database for data storage and retrieval and a **S3 Bucket** for image storage and hosting.
+- User feeds in an Image of the reciept, creating an object
+- When an object is created in **s3** it triggers an event notification.
+- Which then triggers a **Lambda** function to create an expense record.
+- This expense record is created by feeding it to **Gemini Vision Model API**, which returns the reciept data.
+- The expense record is then stored in a **RDS** running on postgreeSQL.
+- The backend is run on an **EC2** instance , which registers an user ,create expense record ,uploads  reciept image to a S3.
 - All of these services are run using **Docker** containers to ensure availability and performance.
 
