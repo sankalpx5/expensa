@@ -39,7 +39,8 @@
 ---
 
 ## Overview
-![image](https://github.com/user-attachments/assets/6121d6e1-a9cf-4db6-8ceb-e309c16c323f)
+<img width="1024" height="747" alt="image" src="https://github.com/user-attachments/assets/b714fa7d-5ac0-4cc5-95be-958dad38f1d0" />
+
 
 - User feeds in an Image of the reciept, creating an object
 - When an object is created in **s3** it triggers an event notification.
