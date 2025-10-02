@@ -10,9 +10,7 @@
   <a href="#overview"><strong>Overview</strong></a> ·
   <a href="#aws-setup"><strong>AWS Setup</strong></a> ·
   <a href="#remote-backend-setup"><strong>Backend Setup</strong></a> ·
-  <a href="#usage"><strong>Usage</strong></a> ·
-  <a href="#monitoring"><strong>Monitoring</strong></a> ·
-  <a href="#authors"><strong>Authors</strong></a>
+  <a href="#usage"><strong>Usage</strong></a>
 </p>
 
 ## Features
