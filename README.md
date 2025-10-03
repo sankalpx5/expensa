@@ -45,7 +45,7 @@
 ![Minio](https://img.shields.io/badge/MinIO-C72E49.svg?style=for-the-badge&logo=MinIO&logoColor=white)
 
 ## Overview
-<img alt="AWS Architecture" src="./assets/arch.png">
+<img alt="AWS Architecture" src="./assets/arch.jpg">
 
 - The **backend** consists of 3 main services being the **Python based REST API** developed using **FastAPI** for serving requests, performing CRUD operations, a **RDS Postgres** database for data storage and retrieval and a **S3 Bucket** for image storage and hosting.
 - All of these services are run using **Docker** containers to ensure availability and performance.
